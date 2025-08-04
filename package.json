@@ -1,0 +1,38 @@
+{
+  "name": "junior-test",
+  "version": "1.0.0",
+  "description": "Тестовое задание для Backend Node.js разработчика",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimes2212/junior-test.git"
+  },
+  "keywords": [],
+  "author": "Dimes",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dimes2212/junior-test/issues"
+  },
+  "homepage": "https://github.com/Dimes2212/junior-test#readme",
+  "dependencies": {
+    "@prisma/client": "^6.13.0",
+    "fastify": "^5.4.0",
+    "fastify-cors": "^6.0.3",
+    "fastify-plugin": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "prisma": "^6.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
